@@ -12,18 +12,37 @@
 .main{
     padding: 0 20px 0px 20px !important;
 }
+.mainbox{
+    display: flex;
+    flex-direction: row;
+}
+.mainbox1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.mainbox2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.mainbox3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
 .box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     /* background-color: red; */
-    align-items: center;
+    /* align-items: center; */
 }
 .box1{
     border: 2px solid rgb(230, 222, 222);
     border-radius: 10px 10px 0px 0px;
     /* max-width: 650px; */
-    width: 50%;
+    width: 95%;
     /* height: 600px; */
     height: auto;
 }
@@ -51,11 +70,49 @@
     width: 98%;
     margin-left: auto;
     margin-right: auto;
-    height: 40px;
+    /* height: 40px; */
     background: rgb(239 236 236);
     border-radius: 8px;
     padding: 5px;
-    min-height: 95px;
+    /* min-height: 95px; */
+    height: auto;
+    margin-top: 10px;
+}
+.warn1{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 40px; */
+    background: #ffc107;
+    border-radius: 8px;
+    padding: 5px;
+    /* min-height: 95px; */
+    height: auto;
+    margin-top: 10px;
+}
+
+.warn2{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 40px; */
+    background: #ffc107;
+    border-radius: 8px;
+    padding: 5px;
+    /* min-height: 95px; */
+    height: auto;
+    margin-top: 10px;
+}
+.warn3{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 40px; */
+    background: #dc3545;
+    border-radius: 8px;
+    padding: 5px;
+    /* min-height: 95px; */
+    height: auto;
     margin-top: 10px;
 }
 .message{
@@ -69,7 +126,7 @@
     border: 2px solid rgb(230, 222, 222);
     border-radius: 0px 0px 10px 10px;
     /* max-width: 650px; */
-    width: 50%;
+    width: 95%;
     padding: 20px;
     height: auto;
 }
@@ -96,6 +153,18 @@ footer{
     .box1b{
         width: 100%;
     }
+    .mainbox{
+        display: inline;
+    }
+    .mainbox1{
+        display: inline;
+    }
+    .mainbox2{
+        display: inline;
+    }
+    .mainbox3{
+        display: inline;
+    }
   }
 
 @media only screen and (max-width: 450px) {
@@ -113,5 +182,17 @@ footer{
     }
     .box1b{
         width: 100%;
+    }
+    .mainbox{
+        display: inline;
+    }
+    .mainbox1{
+        display: inline;
+    }
+    .mainbox2{
+        display: inline;
+    }
+    .mainbox3{
+        display: inline;
     }
   }
