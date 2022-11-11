@@ -140,6 +140,13 @@ footer{
     align-items: center;
     align-content: center;
 }
+
+.submitbtn{
+    width: 100%;;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (max-width: 760px) {
     .warn{
         min-height: 115px;
