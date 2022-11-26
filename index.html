@@ -40,10 +40,11 @@
                         It will take 5-10 minutes only.
                     </li>
                 </ul>
+                
                 <div id="chckBx">
                     <div>
 
-                        <input type="checkbox" style=" margin: 4px;"/>
+                        <input type="checkbox" style=" margin: 4px;" required="true" />
                     </div>
                     <div>
 
@@ -53,14 +54,41 @@
 
             </p>
             
+           <div class="form">
+               <div class="id_info">
+            <div  class="name">
+                <label>First name : </label><br>
+                <input type="text" placeholder="First Name" />
+            </div>
+            <div  class="name">
+                <label>Last name : </label><br>
+                <input type="text" placeholder="Last Name" />
+            </div>
+            <div  class="name">
+                <label>Age : </label>
+                <br>
+                <input type="number" placeholder="e.g: 22"/>
+            </div>
 
+        </div> 
+        
+            <div  class="Address">
+                <label>Address : </label>
+                    <input type="text" placeholder="e.g: Delhi, India"/>
+                </div>
+            
+            <div  class="email">
+                <label>Email : </label>
+                <br>
+                <input type="email" placeholder="xyz@gmail.com" >
+            </div>
+         
+        </div>
             
             <!-- <input type="text" placeholder="Please enter yout name"  id="name" class="username" autocomplete="off">
             <br>
             <input type="email" placeholder="Enter your email" class="email" autocomplete="off"> -->
-            <br>
-            <input type="number" placeholder="Enter your age" class="age" autocomplete="off">
-            <br>
+            <br>/
             <button type="button" class="btn btn-success" onclick="func()" >Start Survey</button>
             <a href="./second.html" class="he" id="link" style="display: none;" >link</a>
 
