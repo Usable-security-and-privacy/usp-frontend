@@ -114,31 +114,19 @@ input{
 .main{
     padding: 0 20px 0px 20px !important;
 }
-.mainbox{
-    display: flex;
-    flex-direction: row;
+.main-con{
+    animation: color-change 1s infinite;
 }
-.mainbox1{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-}
-.mainbox2{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-}
-.mainbox3{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+  }
 .box{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* background-color: red; */
-    /* align-items: center; */
+    width: 70vw;
+    margin: auto;
 }
 .box1{
     border: 2px solid rgb(230, 222, 222);
@@ -270,22 +258,7 @@ footer{
         width: 100%;
         /* margin-top: 20px; */
     }
-    .mainbox{
-        display: inline;
-        margin-top: 20px !important;
-    }
-    .mainbox1{
-        display: inline;
-        margin-top: 20px !important;
-    }
-    .mainbox2{
-        display: inline;
-        margin-top: 20px !important;
-    }
-    .mainbox3{
-        display: inline;
-        margin-top: 20px !important;
-    }
+    
   }
 
 @media only screen and (max-width: 450px) {
@@ -304,16 +277,5 @@ footer{
     .box1b{
         width: 100%;
     }
-    .mainbox{
-        display: inline;
-    }
-    .mainbox1{
-        display: inline;
-    }
-    .mainbox2{
-        display: inline;
-    }
-    .mainbox3{
-        display: inline;
-    }
+    
   }
