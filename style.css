@@ -114,7 +114,7 @@ input{
 .main{
     padding: 0 20px 0px 20px !important;
 }
-.mainbox{
+/* .mainbox{
     display: flex;
     flex-direction: row;
 }
@@ -132,10 +132,12 @@ input{
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-}
+} */
 .box{
     display: flex;
     flex-direction: column;
+    width: 70vw;
+    margin: auto;
     /* justify-content: center; */
     /* background-color: red; */
     /* align-items: center; */
