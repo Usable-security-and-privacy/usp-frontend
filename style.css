@@ -118,6 +118,14 @@ input{
 .main{
     padding: 0 20px 0px 20px !important;
 }
+.mid{
+    color: red;
+    font-size: 50px;
+}
+.Q0{
+ border-radius: 10px;
+ background-color: #eeeeee;
+}
 .container-fluid p{
     animation: color-change 1s infinite;
 }
@@ -129,7 +137,7 @@ input{
 .box{
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    width: 75%;
     margin: auto;
     margin-top: 20px;
     /* justify-content: center; */
@@ -169,12 +177,15 @@ input{
     flex-direction: row;
     border: 2px solid rgb(230, 222, 222);
     border-radius: 10px 10px 0px 0px;
-    
+    width: 75%;
+    margin: 30px auto 0px auto;
 }
 .ques4{
     border: 2px solid rgb(230, 222, 222);
     border-radius: 0px 0px 10px 10px;
     padding: 20px;
+    width: 75%;
+    margin: auto;
 }
 .img1{
     width: 100%;;
