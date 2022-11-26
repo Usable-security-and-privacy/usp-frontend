@@ -155,6 +155,10 @@ input{
 .img p{
     margin: auto 10px auto 10px;
 }
+.last{
+    display: flex;
+    flex-direction: roe;
+}
 .spam{
     width: 63px;
     height: 54px;
