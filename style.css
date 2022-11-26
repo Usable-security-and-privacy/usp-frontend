@@ -114,18 +114,6 @@ input{
 .main{
     padding: 0 20px 0px 20px !important;
 }
-.main-con{
-    animation: color-change 1s infinite;
-}
-#clickerror{
-    /* display: none; */
-    color: red;
-}
-@keyframes color-change {
-    0% { color: red; }
-    50% { color: blue; }
-    100% { color: green; }
-  }
 .container-fluid p{
     animation: color-change 1s infinite;
 }
@@ -165,7 +153,10 @@ input{
     
 }
 .spam img{
-    border-radius: 86px;
+    border-radius: 50% ;
+    border: 2px solid black;
+    width: 50px;
+    
 }
 .email{
     margin-left: 15px;
