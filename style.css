@@ -52,7 +52,7 @@
     padding-left: 10px;
 }
 .btn{
-    width: 60% !important;
+    width: 100% !important;
 }
 
 #chckBx{
@@ -152,12 +152,44 @@ input{
     background-color: rgb(230, 222, 222);
     font-size: 20px;
 }
+.last{
+    margin-top: 30px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
 .img p{
     margin: auto 10px auto 10px;
 }
 .last{
     display: flex;
-    flex-direction: roe;
+    flex-direction: row;
+    border: 2px solid rgb(230, 222, 222);
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.img1{
+    width: 100%;;
+    height: 40px;
+    border-radius: 10px 0px 0px 0px;
+    background-color: rgb(230, 222, 222);
+    font-size: 20px;
+}
+.img1 p{
+    margin: auto 10px auto 10px;
+}
+.img2{
+    width: 100%;;
+    height: 40px;
+    border-radius: 0px 10px 0px 0px;
+    background-color: rgb(230, 222, 222);
+    font-size: 20px;
+}
+.img2 p{
+    margin: auto 10px auto 10px;
 }
 .spam{
     width: 63px;
